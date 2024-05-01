@@ -1,0 +1,28 @@
+.SearchComponent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #7bcdef;
+    background-color: #7bcdef;
+    padding: 10px;
+}
+
+.SearchComponent input {
+    padding: 8px 16px;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+    background-color: #7bcdef;
+    cursor: pointer;
+    border-color: rgba(166, 51, 95, 0);
+    font-size: 16px;
+}
+
+.SearchComponent button {
+    padding: 8px 8px;
+    border-radius: 0 5px 5px 0;
+    flex: 1;
+    background-color: #7bcdef;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}

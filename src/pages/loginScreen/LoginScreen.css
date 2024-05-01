@@ -1,0 +1,109 @@
+.login-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/1675328114_top-fon-com-p-fon-dlya-prezentatsii-nebo-oblaka-77.png');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(234, 106, 253, 0.8);
+  position: relative;
+}
+
+.buttons-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.buttons-container button {
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin: 20px;
+  background-image: linear-gradient(to right, #540b85, #098686);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.avatar-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px dashed #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.avatar-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.choose-avatar-btn {
+  position: absolute;
+  bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #393e46;
+  color: #eeeeee;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #00adb5;
+}
+
+a {
+  padding: 10px 20px;
+  background-color: #f2f4f8;
+  color: #eeeeee;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: -47px;
+}
+
+
